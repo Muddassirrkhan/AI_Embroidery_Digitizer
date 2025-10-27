@@ -20,9 +20,12 @@ A simple AI-powered embroidery digitizer that converts images into machine-reada
 1. Clone the repository:
    ```bash
    git clone https://github.com/muddassirrkhan/AI_Embroidery_Digitizer.git
+   
 2.Install dependencies:
   pip install -r requirements.txt
+  
 3.Run the app:
   uvicorn app:app --reload --port 8000
+  
 4.Open in browser:
   http://127.0.0.1:8000
